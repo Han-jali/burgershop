@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+/* body {
+  font-family: "Montserrat", sans-serif;
+} */
+.Container {
+  width: 80%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav-Brand h1 {
+  font-size: 32px;
+}
+
+.Nav-Brand span {
+  color: darkred;
+}
+
+.Nav-Menu a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  transition: all 1s;
+}
+.Nav-Menu a:hover {
+  color: darkred;
+}
+.lgn {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.btn {
+  background-color: darkred;
+  padding: 8px 18px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: black;
+  transition: all 1s;
+}
+
+/* hero */
+
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-tagline {
+  width: 50%;
+}
+.hero-tagline span {
+  color: yellow;
+}
+.hero-image {
+  background-image: none;
+  border-image: 35%;
+}
+
+/* menu  */
+
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+}
+.food-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.food-card {
+  width: 22%;
+  /* background-color: bisque; */
+  box-shadow: 7px 10px 20px -1px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+.fc-image img {
+  width: 70%;
+}
+.fc-image {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  height: 180px;
+}
+.fc-desc {
+  /* display: flex;
+  align-items: center; */
+  justify-content: space-between;
+}
+.fc-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-order {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.order a {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  background-color: black;
+  margin-top: 24px;
+}
+.footer-content {
+  color: white;
+  display: flex;
+  padding: 25px;
+  gap: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Nav-Menu {
+    display: none;
+  }
+  .Nav-Button {
+    display: none;
+  }
+  .food-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-card {
+    width: 100%;
+    /* background-color: bisque; */
+    box-shadow: 0px 9px 8px 1px #eee;
+    padding: 10px;
+  }
+  .footer {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+  }
+}
